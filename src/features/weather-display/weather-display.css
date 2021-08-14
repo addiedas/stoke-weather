@@ -1,0 +1,23 @@
+.flex-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.single-weather {
+    width: 250px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.weather img {
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+}
+
+h4 {
+    margin: 30px;
+}
