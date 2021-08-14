@@ -1,3 +1,5 @@
 .search-input {
-    width: 500px;
+    width: 90vmin;
+    max-width: 500px;
+    min-width: 200px;
 }
