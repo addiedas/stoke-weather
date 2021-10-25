@@ -11,10 +11,10 @@ playlist locally
 <br/>
 
 <!-- Steps - Do not remove this comment -->
-1. [Duck Doc](https://swimm.io/link?l=c3dpbW0lM0ElMkYlMkZyZXBvcyUyRloybDBhSFZpSlROQkpUTkJZV1JrYVdVdGRHVnpkR2x1WnlVelFTVXpRVUZrWkdsbFEyOW9aVzQlM0QlMkZkb2NzJTJGbVY2TFg=)
-2. [weather readme](https://raw.githubusercontent.com/AddieCohen/stoke-weather/main/README.md)
-3. [never enough](https://www.youtube.com/watch?v=6jZVsr7q-tE)
-4. [focus](https://swimm.io/link?l=c3dpbW0lM0ElMkYlMkZyZXBvcyUyRloybDBhSFZpSlROQkpUTkJZV1JrYVdVdGRHVnpkR2x1WnlVelFTVXpRVUZrWkdsbFEyOW9aVzQlM0QlMkZkb2NzJTJGcm9Qam0=)
+1. [weather readme](https://raw.githubusercontent.com/AddieCohen/stoke-weather/main/README.md)
+2. [Duck Doc](https://swimm.io/link?l=c3dpbW0lM0ElMkYlMkZyZXBvcyUyRloybDBhSFZpSlROQkpUTkJZV1JrYVdVdGRHVnpkR2x1WnlVelFTVXpRVUZrWkdsbFEyOW9aVzQlM0QlMkZkb2NzJTJGbVY2TFg=)
+3. [focus](https://swimm.io/link?l=c3dpbW0lM0ElMkYlMkZyZXBvcyUyRloybDBhSFZpSlROQkpUTkJZV1JrYVdVdGRHVnpkR2x1WnlVelFTVXpRVUZrWkdsbFEyOW9aVzQlM0QlMkZkb2NzJTJGcm9Qam0=)
+4. [never enough](https://www.youtube.com/watch?v=6jZVsr7q-tE)
 
 
 <br/>
