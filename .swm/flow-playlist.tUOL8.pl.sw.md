@@ -11,7 +11,7 @@ flowing and testing things
 <br/>
 
 <!-- Steps - Do not remove this comment -->
-1. [join us!](https://www.youtube.com/watch?v=bUyPS4JDm4I)
+1. [demo](https://www.youtube.com/watch?v=FfXIsvDzfF0)
 2. [weather readme link](https://raw.githubusercontent.com/AddieCohen/stoke-weather/main/README.md)
 3. [new doc](new-doc.2lJHr.sw.md)
 4. [Testing doc creation](testing-doc-creation.LTxBk.sw.md)
