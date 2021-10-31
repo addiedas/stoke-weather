@@ -11,10 +11,10 @@ a playlist
 <br/>
 
 <!-- Steps - Do not remove this comment -->
-1. [new doc](new-doc.2lJHr.sw.md)
-2. [weather readme](https://raw.githubusercontent.com/AddieCohen/stoke-weather/main/README.md)
+1. [cats](https://www.youtube.com/watch?v=9Cou1WoNe0Y)
+2. [new doc](new-doc.2lJHr.sw.md)
 3. [Testing doc creation](testing-doc-creation.LTxBk.sw.md)
-4. [cats](https://www.youtube.com/watch?v=9Cou1WoNe0Y)
+4. [weather readme](https://raw.githubusercontent.com/AddieCohen/stoke-weather/main/README.md)
 
 
 <br/>
