@@ -12,7 +12,7 @@ a playlist
 
 <!-- Steps - Do not remove this comment -->
 1. [new doc](new-doc.2lJHr.sw.md)
-2. [weather readme](https://github.com/AddieCohen/stoke-weather/blob/main/README.md)
+2. [weather readme](https://raw.githubusercontent.com/AddieCohen/stoke-weather/main/README.md)
 3. [cats](https://www.youtube.com/watch?v=9Cou1WoNe0Y)
 
 
