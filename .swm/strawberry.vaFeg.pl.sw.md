@@ -6,7 +6,7 @@ app_version: 0.6.4-0
 ---
 
 <!-- Intro - Do not remove this comment -->
-a playlist
+a strawberry playlist
 
 <br/>
 
