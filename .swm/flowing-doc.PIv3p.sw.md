@@ -30,6 +30,8 @@ the logo is here
 
 [ahhh](ahhh.7yg2i.sw.md) - this is a new doc here
 
+[Testing doc creation](testing-doc-creation.LTxBk.sw.md) - change name for this
+
 <br/>
 
 `handleKeyDown`[<sup id="13cfPy">↓</sup>](#f-13cfPy) is a function here
