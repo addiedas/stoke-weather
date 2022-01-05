@@ -1,6 +1,6 @@
 ---
 id: surmu
-name: 🔘 Adding an Instance of [Component](#text-placeholder-id-lfnuc)
+name: 🔘 Adding an Instance of { Component }
 file_version: 1.0.2
 app_version: 0.7.1-0
 ---
