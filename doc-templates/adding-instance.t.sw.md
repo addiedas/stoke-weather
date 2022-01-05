@@ -1,54 +1,54 @@
 ---
 id: surmu
-name: 🔘 Adding an Instance of { Component }
+name: 🔘 Adding an Instance of [Component](#text-placeholder-id-lfnuc)
 file_version: 1.0.2
 app_version: 0.7.1-0
 ---
 
-Understanding { Component }s and how they work is an important part of contributing to our system.
+Understanding [Component](#text-placeholder-id-lfnuc)s and how they work is an important part of contributing to our system.
 
-This document will describe all you need to know about { Component }s.
+This document will describe all you need to know about [Component](#text-placeholder-id-lfnuc)s.
 
-A { Component } is { add a high-level description of Components are and their role in the system }.
+A [Component](#text-placeholder-id-lfnuc) is [add a high-level description of Components are and their role in the system](#text-placeholder-id-jhqz1).
 
-Some examples of { Component }s are: { add examples here }
+Some examples of [Component](#text-placeholder-id-lfnuc)s are: [add examples here](#text-placeholder-id-ubhss)
 
 # Basic Example
 
-We'll follow the implementation of { Example Component (an instance of Component) } for this example.
+We'll follow the implementation of [Example Component (an instance of Component)](#text-placeholder-id-9oy67) for this example.
 
-{ add a high-level description of Example Component }.
+[add a high-level description of Example Component](#text-placeholder-id-7e7ko).
 
 # TL;DR
 
-1.  Create a class inheriting from { base class } in { add a "/path" of a containing folder, and / or describe the file naming convention }
+1.  Create a class inheriting from [base class](#text-placeholder-id-gggqo) in [add a "/path" of a containing folder, and / or describe the file naming convention](#text-placeholder-id-7wbm4)
 
-2.  Define { add class level variables / constants / types to define }
+2.  Define [add class level variables / constants / types to define](#text-placeholder-id-exagy)
 
-3.  Implement { add names of methods to implement }
+3.  Implement [add names of methods to implement](#text-placeholder-id-qpqfx)
 
-4.  Update { add a file that needs to be updated with the new class (add class / name of class to a list, import it somewhere, etc. }
+4.  Update [add a file that needs to be updated with the new class (add class / name of class to a list, import it somewhere, etc.](#text-placeholder-id-555pz)
 
 
 # Add the New Class
 
-### Inherit from { base class }
+### Inherit from [base class](#text-placeholder-id-gggqo)
 
-We first need to define our class in { mention relevant file }, and inherit from { base class }
-
-<br/>
-
-
+We first need to define our class in [mention relevant file](#text-placeholder-id-pjhku), and inherit from [base class](#text-placeholder-id-gggqo)
 
 <br/>
 
-## Define { add class level variables / constants / types to define }
 
-Every { Component } should define these at the class level:
 
-*   { variable name }: { why we need to define it/what it does }
+<br/>
 
-*   { another variable }: { why we need to define it/what it does }
+## Define [add class level variables / constants / types to define](#text-placeholder-id-exagy)
+
+Every [Component](#text-placeholder-id-lfnuc) should define these at the class level:
+
+*   [variable name](#text-placeholder-id-semhh): [why we need to define variable name/what it does](#text-placeholder-id-ndlwi)
+
+*   [another variable](#text-placeholder-id-7u6mn): [why we need to define another variable/what it does](#text-placeholder-id-aqpkp)
 
 *   ...
 
@@ -58,9 +58,9 @@ Every { Component } should define these at the class level:
 
 <br/>
 
-# Implement { method names to implement }
+# Implement [method names to implement](#text-placeholder-id-uke9s)
 
-The goal of { first method } is to { explain what this method does }.
+The goal of [first method](#text-placeholder-id-wmcbi) is to [explain what this method does](#text-placeholder-id-qmikw).
 
 <br/>
 
@@ -70,7 +70,7 @@ The goal of { first method } is to { explain what this method does }.
 
 ## **Update additional files with the new class**
 
-Every time we add a new { Component }, we reference it in a few locations:
+Every time we add a new [Component](#text-placeholder-id-lfnuc), we reference it in a few locations:
 
 <br/>
 
@@ -80,7 +80,7 @@ Every time we add a new { Component }, we reference it in a few locations:
 
 ## Usage example
 
-In this example we can see how our new { Component } can be used:
+In this example we can see how our new [Component](#text-placeholder-id-lfnuc) can be used:
 
 <br/>
 
