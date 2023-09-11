@@ -1,17 +1,22 @@
 import {useAppSelector} from '../../app/hooks';
-import {selectWeatherForecast} from '../weather-data/weather-data-slice';
+import {selectPosition, selectWeatherForecast} from '../weather-data/weather-data-slice';
 import Moment from 'moment';
 import iconsMap from '../../icons/icons-map';
 import './weather-display.css';
 
 export function WeatherDisplay() {
     const weather: any = useAppSelector(selectWeatherForecast);
+    const position: any = useAppSelector(selectPosition);
     Moment.locale('en');
 
     return (
         <div>
             {weather ?
                 <div className="weather">
+                    <div>
+                        <h4>City Position</h4>
+                        <div>lat: {position.lat}, long: {position.long}</div>
+                    </div>
                     <div>
                         <h3>Current Weather</h3>
                         <h4>{weather.current.temp} °C</h4>
