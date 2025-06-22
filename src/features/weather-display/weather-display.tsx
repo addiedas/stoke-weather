@@ -2,6 +2,7 @@ import {useAppSelector} from '../../app/hooks';
 import {selectWeatherForecast} from '../weather-data/weather-data-slice';
 import Moment from 'moment';
 import iconsMap from '../../icons/icons-map';
+import { WeatherAlerts } from '../weather-alerts';
 import './weather-display.css';
 
 export function WeatherDisplay() {
@@ -12,6 +13,7 @@ export function WeatherDisplay() {
         <div>
             {weather ?
                 <div className="weather">
+                    <WeatherAlerts />
                     <div>
                         <h3>Current Weather</h3>
                         <h4>{weather.current.temp} °C</h4>
