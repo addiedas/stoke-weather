@@ -70,8 +70,26 @@ export function WeatherAlerts() {
             backgroundColor: '#fff3cd',
             borderRadius: '8px',
             margin: '10px 0',
-            border: '1px solid #ffeaa7'
+            border: '1px solid #ffeaa7',
+            position: 'relative'
         }}>
+            <div style={{
+                position: 'absolute',
+                top: '-10px',
+                left: '20px',
+                backgroundColor: '#dc3545',
+                borderRadius: '50%',
+                width: '40px',
+                height: '40px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                fontSize: '20px',
+                border: '3px solid white',
+                boxShadow: '0 2px 8px rgba(0,0,0,0.2)'
+            }}>
+                🚨
+            </div>
             <button 
                 onClick={toggleAlerts}
                 style={{
