@@ -13,7 +13,6 @@ export function WeatherDisplay() {
         <div>
             {weather ?
                 <div className="weather">
-                    <WeatherAlerts />
                     <div>
                         <h3>Current Weather</h3>
                         <h4>{weather.current.temp} °C</h4>
@@ -48,6 +47,7 @@ export function WeatherDisplay() {
                     </div>
                 </div>
                 : ''}
+                </WeatherAlerts>
         </div>
     );
 }
