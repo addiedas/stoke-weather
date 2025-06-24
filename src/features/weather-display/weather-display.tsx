@@ -11,6 +11,7 @@ export function WeatherDisplay() {
 
     return (
         <div>
+            <WeatherAlerts />
             {weather ?
                 <div className="weather">
                     <div>
@@ -47,7 +48,6 @@ export function WeatherDisplay() {
                     </div>
                 </div>
                 : ''}
-                </WeatherAlerts>
         </div>
     );
 }
