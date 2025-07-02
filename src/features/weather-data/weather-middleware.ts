@@ -1,6 +1,13 @@
 import {fetchPosition, fetchWeather} from './weather-api';
 import {setMessage, setPosition, setWeatherForecast} from './weather-data-slice';
 
+/**
+ * Middleware to handle fetching the geographical position based on city name.
+ * Dispatches actions to update the position or set an error message.
+ *
+ * @param {any} storeApi - The Redux store API.
+ * @returns {Function} A function to handle the next middleware or reducer.
+ */
 export const getPositionMiddleware = (storeApi: any) => (next: Function) => async (action: any) => {
     if (action.type === 'weatherData/setCityName') {
         const response = await fetchPosition(action.payload) as any
@@ -15,6 +22,13 @@ export const getPositionMiddleware = (storeApi: any) => (next: Function) => asyn
     return next(action);
 }
 
+/**
+ * Middleware to handle fetching the weather forecast based on geographical position.
+ * Dispatches actions to update the weather forecast or set an error message.
+ *
+ * @param {any} storeApi - The Redux store API.
+ * @returns {Function} A function to handle the next middleware or reducer.
+ */
 export const getWeatherMiddleware = (storeApi: any) => (next: Function) => async (action: any) => {
     if (action.type === 'weatherData/setPosition') {
         const response = await fetchWeather(action.payload) as any
