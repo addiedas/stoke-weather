@@ -1,0 +1,18 @@
+/* Color definitions */
+
+:root {
+    --color-light-blue: #f0f8ff;
+    --color-green: #28a745;
+    --color-yellow: #fff3cd;
+    --color-yellow-border: #ffeaa7;
+    --color-red: #dc3545;
+    --color-orange: #fd7e14;
+    --color-dark-red: #721c24;
+    --color-light-red: #f5c6cb;
+    --color-pink: #f8d7da;
+    --color-gray: #6c757d;
+    --color-blue: #007bff;
+    --color-dark-gray: #495057;
+    --color-light-gray: #e9ecef;
+    --color-white: #ffffff;
+}

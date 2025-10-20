@@ -1,6 +1,7 @@
 import {fetchPosition, fetchWeather} from './weather-api';
 import {setMessage, setPosition, setWeatherForecast} from './weather-data-slice';
 
+
 export const getPositionMiddleware = (storeApi: any) => (next: Function) => async (action: any) => {
     if (action.type === 'weatherData/setCityName') {
         const response = await fetchPosition(action.payload) as any
@@ -14,6 +15,7 @@ export const getPositionMiddleware = (storeApi: any) => (next: Function) => asyn
 
     return next(action);
 }
+
 
 export const getWeatherMiddleware = (storeApi: any) => (next: Function) => async (action: any) => {
     if (action.type === 'weatherData/setPosition') {
