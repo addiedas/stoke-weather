@@ -1,11 +1,26 @@
 import {useAppSelector} from '../../app/hooks';
-import {selectWeatherForecast} from '../weather-data/weather-data-slice';
+import {selectPosition, selectWeatherForecast} from '../weather-data/weather-data-slice';
 import Moment from 'moment';
 import iconsMap from '../../icons/icons-map';
 import './weather-display.css';
 
+interface StatCardProps {
+    header: string;
+    imageSrc?: string;
+    children?: any;
+}
+
+const StatCard = ({ header, imageSrc, children }: StatCardProps) => (
+    <div className="single-weather">
+        <h4>{header}</h4>
+        <div>{children}</div>
+        {imageSrc ? <img alt="img" src={imageSrc} /> : null}
+    </div>
+);
+
 export function WeatherDisplay() {
     const weather: any = useAppSelector(selectWeatherForecast);
+    const position: any = useAppSelector(selectPosition);
     Moment.locale('en');
 
     return (
@@ -13,19 +28,28 @@ export function WeatherDisplay() {
             {weather ?
                 <div className="weather">
                     <div>
+                        <h3>City Position</h3>
+                        <div className="flex-wrap">
+                            <StatCard header="City Position">
+                                lat: {position.lat}, long: {position.long}
+                            </StatCard>
+                        </div>
+                    </div>
+                    <div>
                         <h3>Current Weather</h3>
-                        <h4>{weather.current.temp} °C</h4>
-                        <img alt="img" src={iconsMap.get(`${weather.current.weather[0].icon}`)}/>
+                        <div className="flex-wrap">
+                            <StatCard header="Now" imageSrc={iconsMap.get(`${weather.current.weather[0].icon}`)}>
+                                {weather.current.temp} °C
+                            </StatCard>
+                        </div>
                     </div>
                     <div>
                         <h3>Hourly Weather</h3>
                         <div className="flex-wrap">
                             {weather.hourly.map((hour: any) =>
-                                <div className="single-weather" key={hour.dt}>
-                                    <h4>{Moment(new Date(hour.dt * 1000)).format('HH:mm')}</h4>
-                                    <div>{hour.temp} °C</div>
-                                    <img alt="img" src={iconsMap.get(`${weather.current.weather[0].icon}`)}/>
-                                </div>
+                                <StatCard key={hour.dt} header={Moment(new Date(hour.dt * 1000)).format('HH:mm')} imageSrc={iconsMap.get(`${hour.weather[0].icon}`)}>
+                                    {hour.temp} °C
+                                </StatCard>
                             )}
                         </div>
                     </div>
@@ -33,14 +57,10 @@ export function WeatherDisplay() {
                         <h3>Daily Weather</h3>
                         <div className="flex-wrap">
                             {weather.daily.map((day: any) =>
-                                <div className="single-weather" key={day.dt}>
-                                    <h4>{Moment(new Date(day.dt * 1000)).format('DD/MM/YYYY')}</h4>
-                                    <div>
-                                        <div>Day: {day.temp.day} °C</div>
-                                        <div>Night: {day.temp.night} °C</div>
-                                        <img alt="img" src={iconsMap.get(`${weather.current.weather[0].icon}`)}/>
-                                    </div>
-                                </div>
+                                <StatCard key={day.dt} header={Moment(new Date(day.dt * 1000)).format('DD/MM/YYYY')} imageSrc={iconsMap.get(`${day.weather[0].icon}`)}>
+                                    <div>Day: {day.temp.day} °C</div>
+                                    <div>Night: {day.temp.night} °C</div>
+                                </StatCard>
                             )}
                         </div>
                     </div>
